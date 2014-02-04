@@ -1,0 +1,9 @@
+---
+applications:
+- name: hello-world-php
+  memory: 256M
+  instances: 1
+  host: hello-world-php-${random-word}
+  domain: ${target-base}
+  path: .
+  buildpack: https://github.com/zendtech/zend-server-php-buildpack.git
