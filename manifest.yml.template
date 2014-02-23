@@ -3,5 +3,5 @@ applications:
 - name: hello-world-php
   memory: 256M
   instances: 1
-  host: hello-world-php-16549
+  host: hello-world-php-$RANDOM
   buildpack: https://github.com/zendtech/zend-server-php-buildpack.git
