@@ -1,3 +1,3 @@
 <?php
-echo "Hello world! now my own";
+echo "Hello world! now on github";
 ?>
